@@ -1,0 +1,125 @@
+
+.main {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    background-color:rgb(255, 191, 0);
+    height: 350px;
+    border-bottom: 1.5px solid black;
+}
+
+.main-container {
+    display: flex;
+}
+.design{
+    display: block;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 850px;
+    margin-left: 130px;
+    box-sizing: inherit;
+}
+
+.main-content>h1 {
+    font-size: 80px;
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+    color: black;
+    font-weight: 520;
+    line-height: 5rem;
+    text-align: left;
+}
+
+.main-content>h6 {
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.button {
+    margin-right: auto;
+    padding: 10px 25px;
+    border-radius: 33px;
+    font-size: 18px;
+    overflow: hidden;
+    width: 250px;
+    border: 1px solid rgba(8, 8, 8, 1);
+    background-color: rgba(8, 8, 8, 1);
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .main-content>h1 {
+        font-size: 3.8rem;
+        margin: 0px 10px;
+    }
+
+    .main-content>h6 {
+        margin: 20px 20px;
+        font-size: 20px;
+    }
+
+    .main-content>button {
+        margin-right: auto;
+        margin-left: 20px;
+    }
+}
+.posts{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 130px;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.post{
+    display: flex;
+    gap: 100px; 
+}
+
+.img{
+    max-height: 400px;
+    object-fit: cover;
+    position: relative;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.h1{
+font-size: 48px;
+margin-top: 25px;
+}
+.p{
+    font-size: 18px;
+}
+.btnHome{
+    width: max-content;
+    padding: 7.5px 15px;
+    border: none;
+    cursor: pointer;
+    color: teal;
+    background-color: white;
+    border: 1px solid teal;
+}
+.btnHome:hover{
+border: 1px solid wheat;
+background-color: lightgreen;
+color: black;
+}
+.uploadedImg{
+    margin-top: 40px;
+    max-height: 400px;
+    max-width: 400px;
+    object-fit: cover;
+}
+
+
+  
